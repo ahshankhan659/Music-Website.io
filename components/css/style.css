@@ -1,0 +1,265 @@
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    /* height: 500vh; */
+
+}
+header{
+    height: 41px;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+    color: rgb(51, 34, 34);
+    position: fixed;
+    z-index: 999;
+}
+header li:first-child{
+    margin-left: -25px;
+}
+
+header{
+    position: fixed;
+    /* margin-top: -41px; */
+}
+header ul{
+    /* border: 2px solid black; */
+    overflow: auto;
+    margin-left: -118px;
+    position: fixed;
+    /* z-index: 999px; */
+}
+ul li.mytunes{
+    list-style: none;
+    float: left;
+
+}
+.mytunes a{
+    text-decoration: none;
+    text-align: center;
+    width: 107px;
+    display: inline-block;
+    padding: 8px 12px;
+    color: #eee;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: 350;
+    
+}
+.mytunes a:hover{
+    color: white;
+    background-color: rgb(73, 73, 73);
+    
+}
+
+/* section-1 */
+
+.section-1 .img-1{
+    background-image: url(../images/showcase.jpeg);
+    height: 100vh;
+    width: 120.9%;
+    background-position: center;
+    background-size: cover;
+    margin-top: 41px;
+    margin-left: -117px;
+    background-size: cover;
+}
+.section-1 .img-1 h1,h2,p{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+.section-1 .img-1 h1{
+    position: relative;
+    top: 165px;
+    font-weight: bold;
+    font-size: 56px;
+}
+.section-1 .img-1 h2{
+    position: relative;
+    top: 165pt;
+    font-weight: bold;
+}
+.section-1 .img-1 p{
+    position: relative;
+    top: 180pt;
+    font-size: 1.3rem;
+}
+/* section-2 */
+.section-2 .img-2{
+    background-color: #252529;
+    
+    height: 200vh;
+    width: 120.9%;
+    margin-left: -117px;
+
+}
+.section-2 .img-2 .section-22{
+    color: white;
+    font-size: 2.5rem;
+    position: relative;
+    top: 40px;
+}
+.section-2 .img-2 h3{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+.section-2 .img-2 a.btn{
+    color: white;
+    background-color:#d3071b;
+    text-align: center;
+    left: 43vw;
+    position: relative;
+    top: 115px;
+    padding: 18px 15px;
+    border-radius: 0px;
+   
+}
+.section-2 .img-2 .text-light{
+    position: relative;
+    top: 155px;
+}
+.section-2 .img-2 p.million-1{
+    font-size: 1.3rem;
+    text-align: center;
+    position: relative;
+     position: relative;
+    top: 100px;
+}
+.section-2 .img-2 img{
+    width: 90%;
+    position: relative;
+    left: 42px;
+    top: 165px;align-items: center;
+
+}
+/* section-3 */
+.section-3{
+    background-color: #f4f4f4;
+}
+.section-3 .img-3 .black{
+     color: black;
+     text-align: center;
+
+}
+.section-3 .img-3 h3.black{
+    font-size: 2rem;
+    position: relative;
+    top: 10vh;
+}
+.section-3 .img-3 p.black{
+    font-size: 1.21rem;
+    position: relative;
+    top: 15vh;
+    font-size: 19px;
+    font-weight: 400;
+}
+.section-3 .img-3 a.black{
+    background-color: #103063;
+    position: relative;
+    left: 37vw;
+    top: 20vh;
+    text-decoration: none;
+    padding: 20px 17px;
+    color: white;
+}
+.section-3 .img-3 img.black{
+    position: relative;
+    top: 24vh;
+}
+/* section-4 */
+.section-4{
+    background-color: #f4f4f4;
+    margin-top: 33px;
+
+}
+.section-4 .img-4{
+    /* border: 2px solid red; */
+    background: url(../images/11.jpeg) no-repeat bottom/cover;
+    padding: 10rem 0;
+    position: relative;
+    top: 10rem;
+    height: 85vh;
+    width: 120.9%;
+    margin-left: -117px;
+
+}
+.section-4 .img-4 h3.black{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+.section-4 .img-4 p.black{
+    text-align: center;
+    font-size: 1.21rem;
+    
+}
+
+/* section-5 */
+.section-5{
+    background-color: #f4f4f4;
+        position: relative;
+    top: 25vh;
+    height: 71vh;}
+.section-5 .col-lg-6 img{
+    height: 380px;
+    width: 530px;
+    margin-top: 30px;
+}
+.section-5 .col-lg-6 h3{
+color: black;
+margin-top: 55px;
+    margin-left: -11px;
+}
+.section-5 .col-lg-6 p{
+    color: black;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-left: -20px;
+    margin-top: 8px;
+
+}
+.section-5 .col-lg-6 p.pp{
+    margin-left: -206px;
+    margin-top: -7px;
+    padding-bottom: 20px;
+}
+
+.section-5 .col-lg-6 a{
+text-decoration: none;
+color:black;
+}
+/* section-6 */
+.section-6 {
+    /* border: 2px solid red; */
+    position: relative;
+    top:25vh;
+    background-color:#2e2b2b;
+    padding-bottom: 10px;
+}
+.section-6 .cards {
+    color: white;
+    width: 285px;
+    margin-top: 40px;
+    margin-bottom: 31px;}
+.section-6 .cards .ul-cards{
+    list-style: none;
+    color: white;
+}
+.section-6 hr{
+    color: white;
+}
+footer{
+    color: white;
+    line-height: 70px;
+    position: absolute;
+    top: 718vh;
+    text-align: center;
+    width: 100%;
+    background: #333;
+
+}
